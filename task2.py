@@ -117,15 +117,15 @@ c3 = Subject(3, "ООП")
 c3.students = [s1, s2, s3]
 c3.grades = [3.5, 4.0, 4.0]
 
-staff = Deanery()
-staff.students = [s1, s2, s3]
-staff.groups = [g1, g2]
-staff.subjects = [c1, c2, c3]
+statement = Deanery()
+statement.students = [s1, s2, s3]
+statement.groups = [g1, g2]
+statement.subjects = [c1, c2, c3]
 
 
-staff.calculate_average_score_by_group()
+statement.calculate_average_score_by_group()
 
-staff.calculate_average_score_by_student()
+statement.calculate_average_score_by_student()
 
 g1.calculate_average_score_by_subject("Математика")
 g2.calculate_average_score_by_subject("Математика")
